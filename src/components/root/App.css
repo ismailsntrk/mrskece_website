@@ -1,0 +1,19 @@
+.App{
+    width: 100%;
+
+}
+#lang-cont{
+    position: fixed;
+    right: 2em;
+    bottom: 2em;
+    z-index: 1000;
+}
+
+@media (max-width: 880px) {
+    #lang-cont{
+        position: fixed;
+        right: 1em;
+        bottom: 1em;
+        z-index: 1000;
+    } 
+}

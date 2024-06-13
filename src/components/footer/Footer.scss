@@ -1,0 +1,115 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 22em;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  justify-content: space-around;
+  background-color: #1e2022;
+}
+
+.footer-top {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 5em;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #1e2022;
+  a {
+    text-decoration: none;
+    color: white;
+    margin: 0 1em;
+  }
+}
+
+.copyright {
+  padding-top: 2em;
+}
+
+.address {
+  padding: 1.2em 4em;
+  color: black;
+  background-color: white;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+@media (max-width: 1124px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+    background-color: #1e2022;
+  }
+  
+  .footer-top {
+    display: flex;
+    width: 100%;
+    gap: 2em;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 1em;
+    a {
+      text-decoration: none;
+      color: white;
+      margin: 0 1em;
+    }
+  }
+  #footer-logo{
+    width: 80vw;
+  }
+  
+  .copyright {
+    
+    p{
+      font-size: large;
+    }
+  }
+  
+  .address {
+    padding: 1.2em 4em;
+    color: white;
+    background-color: rgb(19, 20, 19);
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+.bottom-links{
+  margin-top: 1em;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+  
+}
+

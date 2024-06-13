@@ -1,0 +1,295 @@
+#main-dash {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#our-company-sec {
+  width: 60%;
+  margin-top: 10em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+#company-one {
+  font-family: "Oswald", sans-serif;
+  font-size: 3em;
+  color: black;
+  font-weight: bold;
+}
+#company-two {
+  display: grid;
+
+  grid-template-rows: 100%;
+  grid-template-columns: 48% 4% 48%;
+  font-family: "Oswald", sans-serif;
+  font-size: large;
+  font-weight: light;
+  color: gray;
+}
+
+#standarts {
+  width: 80%;
+ 
+  font-family: "Oswald", sans-serif;
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 10em;
+  justify-content: space-between;
+  align-items: center;
+  p{
+    
+    width: 60%;
+  }}
+
+.standarts-titles {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 0.4em;
+}
+.standarts-parts {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.standarts-parts:hover {
+  .standarts-icons {
+    color: green;
+  }
+  transition: 0.2s;
+  color: green;
+}
+
+#rotated {
+  width: 100%;
+  display: flex;
+  margin-top: 15em;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10em;
+  align-items: center;
+  background-color: lightgray;
+  height: 20vh;
+  text-align: center;
+  font-size: 1.4em;
+  img {
+    position: absolute;
+    left: 8vw;
+    margin-bottom: 10em;
+    transform: rotate(250deg);
+    width: 8em;
+    height: 12em;
+    border: 2px solid white;
+  }
+  p {
+    width: 50%;
+  }
+}
+
+
+
+@media (max-width: 1140px) {
+  #main-dash {
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #our-company-sec {
+    width: 80%;
+    margin-top: 10em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+  #company-one {
+    font-family: "Oswald", sans-serif;
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+  }
+  #company-two {
+    display: grid;
+  
+    grid-template-rows: 100%;
+    grid-template-columns: 48% 4% 48%;
+    font-family: "Oswald", sans-serif;
+    font-size: large;
+    font-weight: light;
+    color: gray;
+  }
+  
+  #standarts {
+    width: 80%;
+   
+    font-family: "Oswald", sans-serif;
+  
+    display: flex;
+    flex-direction: row;
+    margin-top: 10em;
+    justify-content: space-between;
+    align-items: center;
+    p{
+      width: 80%;
+    }}
+  
+  .standarts-titles {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+  }
+  .standarts-parts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .standarts-parts:hover {
+    .standarts-icons {
+      color: green;
+    }
+    transition: 0.2s;
+    color: green;
+  }
+  
+  #rotated {
+    width: 100%;
+    display: flex;
+    margin-top: 15em;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10em;
+    align-items: center;
+    background-color: lightgray;
+    height: 20vh;
+    text-align: center;
+    font-size: 1.4em;
+    img {
+      position: absolute;
+      left: 8vw;
+      margin-bottom: 10em;
+      transform: rotate(250deg);
+      width: 8em;
+      height: 12em;
+      border: 2px solid white;
+    }
+    p {
+      width: 50%;
+    }
+  }
+  
+}
+
+
+@media (max-width: 880px) {
+  #main-dash {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #our-company-sec {
+    width: 90%;
+    margin-top: 5em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+  #company-one {
+    font-family: "Oswald", sans-serif;
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+  }
+  #company-two {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 38% 24% 38%;
+
+    font-family: "Oswald", sans-serif;
+    font-size: large;
+    font-weight: light;
+
+    color: gray;
+  }
+
+  #standarts {
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    height: 55em;
+  
+    flex-direction: column;
+    
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .standarts-titles {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  .standarts-parts {
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .standarts-parts:hover {
+    .standarts-icons {
+      color: green;
+    }
+    transition: 0.2s;
+    color: green;
+  }
+
+  #rotated {
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5em;
+    align-items: center;
+    background-color: lightgray;
+    height: 30vh;
+    text-align: center;
+    font-size: 1em;
+    img {
+      position: absolute;
+      left: 6vw;
+      margin-bottom: 11em;
+      transform: rotate(260deg);
+      width: 4em;
+      height: 6em;
+      border: 2px solid white;
+    }
+    p {
+      margin-top: 1em;
+      width: 90%;
+    }
+  }
+}
